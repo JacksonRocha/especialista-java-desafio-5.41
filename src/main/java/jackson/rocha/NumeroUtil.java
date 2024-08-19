@@ -2,13 +2,6 @@ package jackson.rocha;
 
 public class NumeroUtil {
 
-    int numero1;
-    int numero2;
-    int numero3;
-    double numero4;
-    double numero5;
-    double numero6;
-
     static void descobrirMaiorNumeroEntreDoisNumero(int numero1, int numero2) {
         if (numero1 > numero2) {
             System.out.printf("O numero mais é: %d %n ", numero1);
